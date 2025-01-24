@@ -14,6 +14,7 @@ export const SHeader = styled.header`
       height: 100%;
     }
   }
+  background-color: #3c3c3c;
   @media (max-width: 768px) {
     height: 4.5rem;
   }
@@ -41,7 +42,7 @@ export const SNavBar = styled.nav`
       }
     }
     li:hover {
-      background-color: ${colors.secondary};
+      background-colo 07:30:00r: ${colors.secondary};
     }
   }
   input#menu-toggle {

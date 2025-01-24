@@ -11,6 +11,7 @@ export function Comentario() {
           data={item.data}
           assunto={item.assunto}
           comentario={item.comentario}
+          img = {item.img}
         />
       ))}
     </S.Section>

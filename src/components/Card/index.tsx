@@ -3,8 +3,10 @@ export interface ICard {
   data: string
   assunto: string
   comentario: string
+  img: string
 }
-export const Card = ({ data, assunto, comentario }: ICard) => {
+export const Card = ({ data, assunto, comentario, img }: ICard) => {
+  console.log(img)
   return (
     <SSection>
       <aside>
@@ -18,6 +20,9 @@ export const Card = ({ data, assunto, comentario }: ICard) => {
       <aside>
         <h5>Comentário:</h5>
         <p>{comentario}</p>
+      </aside>
+      <aside>
+        <img src={img} alt="imag" />
       </aside>
     </SSection>
   );

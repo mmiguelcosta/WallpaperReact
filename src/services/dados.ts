@@ -1,32 +1,51 @@
+import wpp1 from "../assets/wpp1.png"
+import wpp2 from "../assets/wpp2.png"
+import wpp3 from "../assets/wpp3.png"
+import wpp4 from "../assets/wpp4.png"
+import wpp5 from "../assets/wpp5.png"
+import wpp6 from "../assets/wpp6.png"
+
 export const dados = [
   {
     id: 1,
-    data: "23/06/2023 07:00:00",
+    data: "23/06/2023",
     assunto: "Aula",
-    comentario: "Componentes"
+    comentario: "Componentes",
+    img: wpp1,
   },
   {
     id: 2,
-    data: "23/06/2023 07:10:00",
+    data: "23/06/2023",
     assunto: "Aula Web",
-    comentario: "Serviços"
+    comentario: "Serviços",
+    img: wpp2,
   },
   {
     id: 3,
-    data: "23/06/2023 07:20:00",
+    data: "23/06/2023",
     assunto: "Aula React",
-    comentario: "Rotas"
+    comentario: "Rotas",
+    img: wpp3,
   },
   {
     id: 4,
-    data: "23/06/2023 07:30:00",
+    data: "23/06/2023",
     assunto: "Aula React Web",
-    comentario: "Estilos"
+    comentario: "Estilos",
+    img: wpp4,
   },
   {
     id: 5,
-    data: "23/06/2023 07:30:00",
+    data: "23/06/2023",
     assunto: "Aula React Web",
-    comentario: "Estilos"
+    comentario: "Estilos",
+    img: wpp5,
+  },
+  {
+    id: 6,
+    data: "23/06/2023",
+    assunto: "Aula React Web",
+    comentario: "Estilos",
+    img: wpp6,
   },
 ]
