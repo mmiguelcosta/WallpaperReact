@@ -26,14 +26,14 @@ export function Header() {
             <Link to="/">Início</Link>
           </li>
           <li>
-            <Link to="/comentario">Comentário</Link>
+            <Link to="/imagem">Imagens</Link>
           </li>
         </ul>
         {
           user ? (
             <ul>
               <li>
-                <Link to="/adm">Administrativa</Link>
+                <Link to="/upload">Upload</Link>
               </li>
               <li>
                 <button onClick={logout}>{user.nome} <GrLogout /></button>

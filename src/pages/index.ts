@@ -1,7 +1,7 @@
 export { Layout as PageLayout } from "./Layout"
 export { Home as PageHome } from "./Home"
-export { Comentario as PageComentario } from "./Comentario"
+export { Imagem as PageImagem } from "./Imagem"
 export { Cadastrar as PageCadastrar } from "./Cadastrar"
 export { Login as PageLogin } from "./Login"
 
-export { Adm as PageAdm } from "./Adm"
+export { Upload as PageUpload } from "./Upload"

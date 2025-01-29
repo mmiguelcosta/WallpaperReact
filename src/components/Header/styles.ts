@@ -38,7 +38,7 @@ export const SNavBar = styled.nav`
       align-items: center;
       a {
         text-decoration: none;
-        color: ${colors.black};
+        color: ${colors.white};
       }
     }
     li:hover {

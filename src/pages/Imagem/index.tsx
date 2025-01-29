@@ -2,15 +2,13 @@ import * as S from './styles'
 import { dados } from "../../services/dados"
 import { ComponentCard } from '../../components'
 
-export function Comentario() {
+export function Imagem() {
   return (
     <S.Section>
       {dados.map(item => (
         <ComponentCard
           key={item.id}
           data={item.data}
-          assunto={item.assunto}
-          comentario={item.comentario}
           img = {item.img}
         />
       ))}

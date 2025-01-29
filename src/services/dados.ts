@@ -9,43 +9,31 @@ export const dados = [
   {
     id: 1,
     data: "23/06/2023",
-    assunto: "Aula",
-    comentario: "Componentes",
     img: wpp1,
   },
   {
     id: 2,
     data: "23/06/2023",
-    assunto: "Aula Web",
-    comentario: "Serviços",
     img: wpp2,
   },
   {
     id: 3,
     data: "23/06/2023",
-    assunto: "Aula React",
-    comentario: "Rotas",
     img: wpp3,
   },
   {
     id: 4,
     data: "23/06/2023",
-    assunto: "Aula React Web",
-    comentario: "Estilos",
     img: wpp4,
   },
   {
     id: 5,
     data: "23/06/2023",
-    assunto: "Aula React Web",
-    comentario: "Estilos",
     img: wpp5,
   },
   {
     id: 6,
     data: "23/06/2023",
-    assunto: "Aula React Web",
-    comentario: "Estilos",
     img: wpp6,
   },
 ]

@@ -1,8 +1,8 @@
 import { SSection } from "./styles";
-export function Adm() {
+export function Upload() {
   return (
     <SSection>
-      Área Administrativa
+      Área de Upload
     </SSection>
   );
 };
